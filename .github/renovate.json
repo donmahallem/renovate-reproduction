@@ -1,0 +1,63 @@
+{
+    "automerge": true,
+    "branchConcurrentLimit":40,
+    "dependencyDashboard": true,
+    "postUpdateOptions": [],
+    "extends": [
+        "config:base",
+        ":prHourlyLimit4"
+    ],
+    "lockFileMaintenance": true,
+    "labels": [
+        "dependencies"
+    ],
+    "packageRules": [
+        {
+            "groupName": "rollup packages",
+            "matchPackagePatterns": [
+                "^@donmahallem/rollup-config",
+                "^@rollup/plugin",
+                "^rollup$"
+            ]
+        },
+        {
+            "groupName": "ajv {{currentVersion}}",
+            "matchPackageNames": [
+                "ajv",
+                "ajv-formats"
+            ],
+            "matchSourceUrlPrefixes": [
+                "https://github.com/ajv-validator",
+                "git+https://github.com/ajv-validator"
+            ]
+        },
+        {
+            "depTypeList": [
+                "devDependencies"
+            ],
+            "rangeStrategy": "pin",
+            "pin": true
+        },
+        {
+            "depTypeList": [
+                "dependencies"
+            ],
+            "rangeStrategy": "bump"
+        },
+        {
+            "depTypeList": [
+                "peerDependencies",
+                "optionalDependencies"
+            ],
+            "rangeStrategy": "replace"
+        },
+        {
+            "matchPackageNames": [
+                "renovate"
+            ],
+            "extends": [
+                "schedule:weekly"
+            ]
+        }
+    ]
+}
