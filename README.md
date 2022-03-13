@@ -16,3 +16,6 @@ Example below:
 This causes commander to be missing from the root package.json and not available
 
 See: [Discussion](https://github.com/renovatebot/renovate/discussions/14618)
+
+
+To test run: `npm run build:readme`
