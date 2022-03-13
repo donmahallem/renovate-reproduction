@@ -1,7 +1,7 @@
 {
   "name": "c",
   "devDependencies": {
-    "renovate": "29.36.2"
+    "renovate": "32.3.0"
   },
   "scripts": {
     "test": "npx renovate-config-validator"
