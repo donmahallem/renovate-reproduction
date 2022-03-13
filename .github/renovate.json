@@ -4,7 +4,6 @@
     "dependencyDashboard": true,
     "postUpdateOptions": [],
     "baseBranches":[
-        "master",
         "minimal"
     ],
     "extends": [
