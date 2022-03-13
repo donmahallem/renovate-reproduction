@@ -1,7 +1,10 @@
-<!-- ⚠️ This README has been generated from the file(s) "README.md" ⚠️-->
+<!-- ⚠️ This README has been generated from the file(s) "README.md" ⚠️--><!-- ⚠️ This README has been generated from the file(s) "README.md" ⚠️-->
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#renovate-purge-deps-reproduction)
 
-# ➤ Renovate Purge Deps Reproduction
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-renovate-purge-deps-reproduction)
+
+# ➤ ➤ Renovate Purge Deps Reproduction
 
 Currently renovate purges indirect dependencies from other (not only root) package-lock files inside a lerna monorepo if a direct dependency is being updated by renovate.
 This causes the dependency graph for those packages to be broken.
