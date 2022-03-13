@@ -3,6 +3,10 @@
     "branchConcurrentLimit":40,
     "dependencyDashboard": true,
     "postUpdateOptions": [],
+    "baseBranches":[
+        "master",
+        "minimal"
+    ],
     "extends": [
         "config:base",
         ":prHourlyLimit4"

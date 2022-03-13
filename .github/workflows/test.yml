@@ -38,5 +38,4 @@ jobs:
           npx lerna bootstrap --ci
       - name: Trigger broken test
         run: |
-          npx lerna run test
           npm run build:readme
