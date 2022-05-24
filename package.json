@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@appnest/readme": "1.2.7",
-    "typescript": "4.6.4"
+    "typescript": "4.7.2"
   },
   "scripts": {
     "build:readme": "npx @appnest/readme generate --input README.md"
