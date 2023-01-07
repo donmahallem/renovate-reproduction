@@ -2,6 +2,6 @@
   "name": "d",
   "scripts": {},
   "dependencies": {
-    "commander": "~9.4.1"
+    "commander": "~9.5.0"
   }
 }
